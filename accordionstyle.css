@@ -1,0 +1,299 @@
+#section2{
+  height: 36vw;
+  margin-left: 0.1vw;
+  width: 83vw;
+  text-align: center;
+  padding-top: 3.464vw;
+  color: black;
+  padding-bottom: 7.161vw;
+  background: linear-gradient(to bottom,#fff 50%,rgb(247, 182, 52) 90%);
+  border-bottom-left-radius: 1.471vw;
+  border-bottom-right-radius: 1.471vw ;
+  margin-top: -4vw;
+}
+.text-align-center{
+  text-align: center !important;
+}
+.margin-bottom{
+  margin-bottom: 3.255vw;
+}
+.small-heading {
+  font-size: 1.432vw;
+}
+.text-center .small-heading {
+  margin-left: auto;
+  margin-right: auto;
+}
+h2{
+  font-size: 1.176vw;
+  margin-left: -4.118vw;
+  margin-top: 0.059vw;
+  margin-bottom: -1.176vw;
+}
+#inCity{
+  background: url("./assets/images/incityDriver.webp") no-repeat center ;
+  background-size: 100%;
+}
+#outStation{
+  background: url("./assets/images/outstationDriver.webp") no-repeat center;
+  background-size: 100%;
+}
+#weekly{
+  background: url("./assets/images/weeklyDriver.webp") no-repeat center;
+  background-size: 100%;
+}
+#daily{
+  background: url("./assets/images/dailyDriver.jpg") no-repeat center;
+  background-size: 100%;
+}
+#monthly{
+  background: url("./assets/images/monthlyDriver.webp") no-repeat center;
+  background-size: 100%;
+}
+#nightShift{
+  background: url("./assets/images/nightDriver.webp") no-repeat center;
+  background-size: 100%;
+}
+#inCityCabs{
+  background: url("./assets/images/incityCabs.webp") no-repeat center;
+  background-size: 100%;
+}
+#outStationCabs{
+  background: url("./assets/images/outstationCabs.webp") no-repeat center;
+  background-size: 100%;
+}
+#oneWayCabs{
+  background: url("./assets/images/dzire.png") no-repeat center;
+  background-size: 100%;
+}
+#luxuryCars{
+  background: url("./assets/images/luxuryCars.webp") no-repeat center;
+  background-size: 100%;
+}
+#suv{
+  background: url("./assets/images/fortuner.jpg") no-repeat center;
+  background-size: 100%;
+}
+#sedans{
+  background: url("./assets/images/sedan.png") no-repeat center;
+  background-size: 100%;
+}
+.speciality{
+  float: left;
+  height: 12vw;
+  width: 25vw;
+  background-color: white;
+  box-shadow: 0 0 1.302vw grey;
+  padding: 7.161vw 0.651vw 0.651vw 0.651vw;
+  margin: 1%;
+  border-radius: 1vw;
+  transition: 0.3s all;
+  cursor: pointer;
+  position: relative;
+}
+.speciality:hover{
+  box-shadow: 0 0 0.651vw grey;
+}
+.specialityname{
+  color: black;
+  margin-top: 1.5vw;
+  margin-left:-0.3vw ;
+  width: 24vw;
+  height: 5vh;
+  background-color: white;
+  border-radius: 1vw;
+  padding: 0.5vw;
+  border: 0.065vw solid black;
+  font-weight: 700;
+  transition: 0.5s all;
+  z-index: 3;
+  font-size: medium;
+}
+.speciality:hover .specialitydetails{
+  opacity: 1;
+}
+.specialitydetails{
+  position: absolute;
+  word-wrap: break-word;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 1vw;
+  word-wrap: break-word;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s all;
+  opacity: 0;
+  padding: 0.651vw;
+}
+.speciality-container{
+  margin-left: 0.294vw;
+  padding-bottom: 3.464vw;
+}
+details > summary {
+  list-style: none;
+}
+details summary::-webkit-details-marker {
+  display:none;
+}
+body{
+  background-color: rgb(225, 225, 241);
+}
+summary{
+  background-color: black;
+  color: black;
+  cursor: pointer;
+  padding: 0.588vw;
+  text-align: left;
+  height: 4.118vw;
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s;
+  background: white;
+  font-size: x-large;
+  font-weight: bold;
+  border-radius: 1.471vw;
+}
+details summary:hover{
+  transform: scale(1.01);
+  box-shadow: 1rem 0.5rem 1.2rem rgba(0, 0, 0, 0.3);
+  border: 0.176vw solid rgb(236, 178, 62);
+  transition: 0.2s all ease-in-out;
+}
+summary #driverText{
+  margin-top: 0.294vw;
+ 
+}
+#driverText{
+  margin-left: 2.941vw;
+  color: black;
+}
+details {
+  border: 0.294vw solid transparent;
+  border-radius: 0.294vw;
+  margin-left: 2.941vw;
+  margin-bottom: 0.588vw;
+}
+details[open] summary {
+  color: black;
+}
+.Driverdetails{
+  display: flex;
+}
+.Driver{
+  flex: 33.33%;
+  padding-top: 0.882vw;
+  margin-top: 0.059vw;
+  height: 27.059vw;
+}
+.Driver img{
+  border-radius: 5%;
+  height: 11.765vw;
+  width: 10.588vw;
+  margin-left: 0.882vw;
+  margin-right: 0.588vw;
+  image-rendering: pixelated;
+}
+#driverText img{
+  height: 2.941vw;
+  width: 2.941vw;
+  margin-left: 17.647vw;
+}
+
+
+/*Responsiveness*/
+      /*Mobile Devices*/
+@media (min-width: 319px) and (max-width: 480px){
+  .box-container{
+    margin-left: -8vh;
+  }
+  #section2{
+    height: 52vh;
+    width: 51vh;
+    margin-left: 8vh;
+    margin-top: -5vh;
+  }
+  summary{
+    height: 6vh;
+    margin-left: 8vh;
+    width: 85%;
+  }
+  #specialheading{
+    margin: 4vh;
+    margin-left: 15vh;
+  }
+  .speciality{
+    margin-top: 1vh;
+    height: 11vh;
+    width: 23vh;
+  }
+  .specialityname{
+    padding-bottom: 3.2vh;
+    margin-top: 3.01vh;
+    height: 0.1vh;
+    width: 100%;
+  }
+}
+
+@media (min-width:481px) and (max-width:1200px){
+  /*iPads and Tablets*/
+ /* Adjustments for medium-sized screens */
+  #section2{
+    height: 77vw;
+    margin-left: 0.1vw;
+    width: 88vw;
+    padding-top: 3.464vw;
+    padding-bottom: 7.161vw;
+    margin-top: -4vw;
+  }
+  summary{
+    height: 4vh;
+  }
+  .speciality{
+    height: 16rem;
+    width: 33rem;
+  
+  }
+  .container h2{
+    padding-bottom: 1.5rem;
+    margin-left: 3rem;
+  }
+  .specialityname{
+    margin-top: 5vh;
+    width: 27vh;
+    height: 3vh;
+  }
+  .box-container{
+    margin-left: -4vh;
+  }
+}
+
+
+
+@media (min-width:1601px){
+  /*Desktops*/
+  #section2{
+  height: 32vw;
+  margin-left: 0.1vw;
+  width: 73.2vw;
+  padding-top: 3.464vw;
+  padding-bottom: 7.161vw;
+  margin-top: -4vw;
+  }
+  .speciality{
+    margin-left: 3rem;
+    width: 35rem;
+    height: 25vh;
+  }
+  .specialityname{
+    margin-top: 1.5vh;
+    width: 20vw;
+  }
+  
+
+  
+  
+}

@@ -1,0 +1,135 @@
+.pricing_container {
+    margin-top: 1.765vw;
+    margin-left: 12.941vw;
+}
+.text-body-secondary {
+    font-weight: bold;
+    margin-top: 1.765vw;
+    margin-left: -5.882vw;
+}
+.text-body-emphasis{
+    margin-left: 2.353vw;
+    font-size: xx-large;
+}
+.text-body-secondary{
+    font-size: medium;
+    margin-left: 1.765vw;
+}
+.pricingTableOne {
+    height: 23vw;
+    width: 41vw;
+    border: none;
+    padding: 1.176vw;
+    margin-left: -10vw;
+    margin-bottom: 1.176vw;
+    border-radius: 0.588vw;
+    background-color: white;
+    box-shadow: 0vw 0.235vw 0.588vw rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.pricingTableTwo{
+    height: 23vw;
+    width: 41vw;
+    border: none;
+    padding: 1.176vw;
+    margin-left: -5.294vw;
+    margin-bottom: 1.176vw;
+    border-radius: 0.588vw;
+    background-color: white;
+    box-shadow: 0vw 0.235vw 0.588vw rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.pricingTable:hover {
+    transform: translateY(-5px);
+}
+.pricing_heading {
+    text-align: center;
+    margin-bottom: 1.176vw;
+}
+.pricing_heading h3 {
+    margin: 0;
+    font-size: 1.647vw;
+    color: #3498db;
+}
+.pricing_heading .value {
+    display: block;
+    font-size: 1.412vw;
+    color: black;
+    margin-top: 0.588vw;
+}
+.content ul {
+    padding-left: 0;
+}
+.content ul li {
+    list-style-type: none;
+    margin-bottom: 0.588vw;
+    font-size: 1.059vw;
+    color: black;
+}
+
+
+
+@media (min-width: 319px) and (max-width: 480px){
+    /*Mobile Devices*/
+    .pricing_container{
+        height: 20vh;
+    }
+    .text-body-emphasis{
+        margin-left: -2vh;
+        font-size: 3.5vh;
+    }
+    .text-body-secondary{
+        margin-left: -1vh;
+        font-size: 1.5vh;
+    }
+    .pricingTableOne{
+        
+        width: 41vh;
+        height: 12vh;
+        margin-top: -3vh;
+        margin-left: -1.5vh;
+       margin-bottom: 5vh;
+        
+    }
+    .pricingTableTwo{
+        width: 41vh;
+        height: 12vh;
+        margin-top: -3vh;
+       margin-left: -1.5vh;
+        
+    }
+    .content{
+        text-align: center;
+    }
+    
+    }
+  
+
+@media (min-width:481px) and (max-width:1200px){
+    /*iPads and Tablets*/
+   /* Adjustments for medium-sized screens */
+   .pricingTableOne {
+        height: 16vh;
+        width: 30vh;
+        border-radius: 5%;
+    }
+    .pricingTableTwo {
+        height: 16vh;
+        width: 30vh;
+        border-radius: 5%;
+    } 
+}
+
+  
+
+  @media (min-width:1601px){
+    /*Desktops*/
+    .pricingTableOne {
+        height: 55vh;
+    }
+    .pricingTableTwo {
+        height: 55vh;
+    }
+
+    
+  }
